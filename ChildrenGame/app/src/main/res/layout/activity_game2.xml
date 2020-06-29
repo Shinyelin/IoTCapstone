@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/g2layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game2Activity">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="bt_back_game2"
+            android:src="@drawable/back">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_game2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFC107"
+        android:fontFamily="@font/cookierunbold"
+        android:text="Ready"
+        android:textSize="30dp" />
+
+    <TableLayout
+        android:id="@+id/tl_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#FFC107">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunbold"
+                android:text="Score : "
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_g2score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunbold"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tl_score"
+        android:layout_alignParentRight="true"
+        android:background="#FF5722">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunbold"
+                android:text="LEVEL : "
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_g2level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cookierunbold"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+    <ImageView
+        android:id="@+id/ship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/spaceship" />
+    <!--
+    <ImageButton
+        android:layout_marginEnd="100dp"
+
+        android:id="@+id/btn_goright"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FF9800"
+        android:src="@drawable/go_right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="g2_btn_goRight"
+        />
+    <ImageButton
+        android:layout_marginStart="100dp"
+        android:id="@+id/btn_goleft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="왼"
+        android:src="@drawable/go_left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#FF9800"
+        android:onClick="g2_btn_goLeft"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn_attach"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/attackbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#F44336"
+        android:onClick="g2_btn_attck"
+
+        />-->
+</RelativeLayout>

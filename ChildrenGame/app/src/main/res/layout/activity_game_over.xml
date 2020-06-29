@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Game1OverActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dreambold"
+        android:text="GAME OVER"
+        android:textColor="#ffffff"
+        android:textSize="70dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Lresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/dreambold"
+                android:text="승리"
+                android:textColor="#FFC107"
+                android:textSize="60dp" />
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="걸음수 "
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_result_Lwalk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="걸음수"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="점수 "
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/tv_result_Lscore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="점수"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Rresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/dreambold"
+                android:text="승리"
+                android:textColor="#FFC107"
+                android:textSize="60dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="걸음수 "
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/tv_result_Rwalk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="걸음수"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="점수 "
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+
+                    <TextView
+                        android:id="@+id/tv_result_Rscore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dreambold"
+                        android:text="점수"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp" />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

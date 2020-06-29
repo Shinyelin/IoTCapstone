@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bnt_radius"
+        android:backgroundTint="#FFC107">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tv_list_gameindex"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/star"
+                android:backgroundTint="#FCE39C"
+                android:fontFamily="@font/cookierunbold"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#8D580A"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv_list_gameschool"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/bnt_radius"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/cookierunbold"
+                android:gravity="center"
+                android:text="학교"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/tv_list_gamescore"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/bnt_radius"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/cookierunbold"
+                android:gravity="center"
+                android:text="점수"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
+
+
